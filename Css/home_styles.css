@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+
+h1 {
+  display: table;
+  color: red;
+  margin: 100px auto;
+  font-size: 100px;
+}
+
+div {
+  display: block;
+  border: 1px solid red;
+  margin: 215px auto;
+  width: 242px;
+  height: 261px;
+  background-color: blue;
+}
+
+a {
+  display: block;
+  margin: 30px;
+  text-align: center;
+  color: red;
+  letter-spacing: 0.08em;
+  word-spacing: 0.08em;
+  font-size: 35px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a:hover {
+  color: limegreen;
+}
+
+footer {
+  background-color: lightgray;
+  margin: 0 auto;
+  text-align: center;
+  padding: 5px 0;
+  display: block;
+  width: 200px;
+}

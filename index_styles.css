@@ -25,7 +25,7 @@ h1 {
 }
 
 body {
-  background-image: url(/outside-background.jpg);
+  background-image: url(outside-background.jpg);
   background-size: cover;
 }
 

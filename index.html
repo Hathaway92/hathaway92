@@ -1,22 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rochester&display=swap"
+      rel="stylesheet"
+    />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index_styles.css" />
-    <title>HTML</title>
+    <link rel="stylesheet" href="index.css" />
+    <title>My Page</title>
   </head>
   <body>
-    <h1>Welcome To My Page!</h1>
-    <div>
-      <nav>
-        <a href="html.html" target="_blank">HTML</a>
-        <a href="css.html" target="_blank">CSS</a>
-        <a href="javascript.html" target="_blank">JavaScript</a>
-      </nav>
+    <section id="header">
+      <h1>Welcome To My Site</h1>
+    </section>
+
+    <aside>
+      <h2>Languages Used</h2>
+      <div class="logos">
+        <img src="./images/logo-html-5.png" alt="Html" />
+        <img src="./images/b967def9bc01aa73793b9970b658e4b0.jpeg" alt="Css" />
+        <img src="./images/js1_0.png" alt="JavaScript" />
+      </div>
+    </aside>
+
+    <section id="menu">
+      <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Menu</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="./html/html.html" target="_blank">HTML</a>
+          <a href="./html/css.html" target="_blank">CSS</a>
+          <a href="./html/javascript.html" target="_blank">JavaScript</a>
+          <a href="./html/examples.html" target="_blank">Exampless</a>
+        </div>
+      </div>
+    </section>
+    <section id="about_me">
+      <div class="about__me">
+        <h2>About Me</h2>
+      </div>
+    </section>
+
+    <div class="image">
+      <img src="./images/me.jpg" alt="Me" />
     </div>
+
+    <div class="text">
+      <p>
+        My name is Vladyslav.I am 28 years old. Living in Greece. Currently
+        learning <b>HTML</b> and <b>CSS</b>.This site is a selfmade
+        <em>CheatSheet</em> with different usefull infos. I'd like to hear your
+        opinions and hints on this site. My goal for now to make this site even
+        more beautiful and usefull. Any advices will be appreciated! You can
+        contact me on the addresses below!
+      </p>
+    </div>
+    <div class="contacts">
+      <h3 class="contacts-title">Contacts</h3>
+      <div>
+        <span class="contacts-link-type"> C: </span>
+        <a class="contacts-link" href="tel:306988167751">
+          +30 69 88 16 77 51
+        </a>
+      </div>
+      <div>
+        <span class="contacts-link-type"> E: </span>
+        <a class="contacts-link" href="mailto:verteletskyvlad@gmail.com">
+          verteletskyvlad@gmail.com
+        </a>
+      </div>
+    </div>
+
+    <script>
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+      window.onclick = function (event) {
+        if (!event.target.matches(".dropbtn")) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains("show")) {
+              openDropdown.classList.remove("show");
+            }
+          }
+        }
+      };
+    </script>
   </body>
   <footer>
-    <p>&copy; Vladyslav Verteletsky</p>
+    <p>© Vladyslav Verteletsky</p>
   </footer>
 </html>

@@ -15,7 +15,7 @@
 }
 
 h1 {
-  background-image: url(/unnamed.jpg);
+  background-image: url(unnamed.jpg);
   margin: 25px auto;
   width: 620px;
 }
@@ -31,7 +31,7 @@ body {
 
 .dropbtn {
   margin: 80px 0 0 25px;
-  background-image: url(/unnamed.jpg);
+  background-image: url(unnamed.jpg);
   padding: 6px 50px;
   border: none;
   cursor: pointer;
@@ -104,7 +104,7 @@ a:hover {
   color: red;
   font-size: 30px;
   font-family: UnifrakturCook, Arial, sans-serif;
-  background-image: url(/unnamed.jpg);
+  background-image: url(unnamed.jpg);
   width: 360px;
   height: 75px;
   text-align: center;
@@ -154,7 +154,7 @@ img {
   margin-left: 690px;
   padding: 10px;
   text-align: center;
-  background-image: url(/unnamed.jpg);
+  background-image: url(unnamed.jpg);
 }
 
 .contacts a {
@@ -197,7 +197,7 @@ aside {
   color: red;
   font-size: 30px;
   font-family: UnifrakturCook, Arial, sans-serif;
-  background-image: url(/unnamed.jpg);
+  background-image: url(unnamed.jpg);
   width: 360px;
   height: 75px;
   text-align: center;
